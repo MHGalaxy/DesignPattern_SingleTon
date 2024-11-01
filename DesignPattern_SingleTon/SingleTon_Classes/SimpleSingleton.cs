@@ -12,6 +12,7 @@ namespace DesignPattern_SingleTon.SingleTon_Classes
     public class SimpleSingleton
     {
         private static SimpleSingleton _instance;
+
         public SimpleSingleton() { }
 
         public static SimpleSingleton GetInstance()
@@ -20,6 +21,7 @@ namespace DesignPattern_SingleTon.SingleTon_Classes
             {
                 _instance = new SimpleSingleton();
             }
+
             return _instance;
         }
     }
