@@ -31,5 +31,7 @@ namespace DesignPattern_SingleTon.SingleTon_Classes
 
             return _instance;
         }
+
+        public string NameProperty { get; set; }    
     }
 }
