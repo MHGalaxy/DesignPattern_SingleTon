@@ -13,7 +13,8 @@ namespace DesignPattern_SingleTon.SingleTon_Classes
     {
         private static SimpleSingleton _instance;
 
-        public SimpleSingleton() { }
+        // Private constructor to prevent direct instantiation
+        private SimpleSingleton() { }
 
         public static SimpleSingleton GetInstance()
         {
