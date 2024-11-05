@@ -15,7 +15,7 @@ namespace DesignPattern_SingleTon.SingleTon_Classes
         private static object _lock = new object();
 
         // Private constructor to prevent direct instantiation
-        public ThreadSafeSingleton() { }
+        private ThreadSafeSingleton() { }
 
         public static ThreadSafeSingleton GetInstance()
         {
